@@ -5,7 +5,7 @@ Este repositorio contiene un método en Java que transforma las letras de un DNI
 El método `formatDNI` recorre cada carácter de un String, verifica si es una letra, y la convierte a mayúscula si es necesario.
 
 ```java
-public class ConvertirMayus {
+public class UppercaseDNI {
 
     public static String formatDNI(String c) {
         String copia = ""; // Creo un String vacío para almacenar el String formateado
